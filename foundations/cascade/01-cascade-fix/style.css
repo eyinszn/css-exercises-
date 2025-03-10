@@ -4,7 +4,7 @@ body {
 
 .para,
 .small-para {
-  color: hsl(0, 0%, 0%);
+  color: hsl(0, 4%, 5%);
   font-weight: 800;
 }
 
@@ -17,16 +17,26 @@ body {
   font-size: 22px;
 }
 
-.confirm {
-  background: green;
-  color: white;
-  font-weight: bold;
-} 
-
+#confirm-button {
+  background-color: rgb(11, 239, 11);
+  color: white; /* Optional: to make the text color white */
+  border: none; /* Optional: to remove the border */
+  padding: 40px 60px; /* Optional: to add some padding */
+  cursor: pointer; /* Optional: to change the cursor to pointer */
+  font-size: 10px; /* Optional: to change the font size */
+  font-weight: bold; /* Optional: to make the text bold */
+}
+  
 .button {
-  background-color: rgb(255, 255, 255);
-  color: rgb(0, 0, 0);
+  background-color: rgb(253, 253, 253);
+  color: rgb(10, 12, 10);
   font-size: 20px;
+  font-weight: bold;
+  padding: 30px 50px;
+}
+
+#confirm-button:hover {
+  background-color: rgb(10, 14, 10); /* Optional: to change the background color when hovering over the button */
 }
 
 .child {
@@ -36,6 +46,10 @@ body {
 }
 
 div.text {
+  color: rgb(0, 0, 0);
+  font-size: 22px;
+}
+
   color: rgb(0, 0, 0);
   font-size: 22px;
   font-weight: 100;
